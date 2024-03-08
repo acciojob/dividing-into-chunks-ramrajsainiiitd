@@ -1,4 +1,4 @@
-const n = prompt("Enter n: ");
+const n = prompt("Enter n: "); 
 const divide = (arr, n) => {
   // Write your code here
 	let MaxSumArr = [];
