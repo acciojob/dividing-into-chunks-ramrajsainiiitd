@@ -1,4 +1,7 @@
+const n = prompt("Enter n: ");
+alert(JSON.stringify(divide(arr, n)));
 const arr = [1, 2, 3, 4, 1, 0, 2, 2];
+let n=5;
 const divide = (arr, n) => {
   // Write your code here
 	let MaxSumArr = [];
@@ -24,6 +27,3 @@ const divide = (arr, n) => {
 	return MaxSumArr;
 };
 console.log(divide(arr,n));
-
-const n = prompt("Enter n: ");
-alert(JSON.stringify(divide(arr, n)));
